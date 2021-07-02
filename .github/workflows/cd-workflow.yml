@@ -53,7 +53,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v1
     - name: Download built artifact
-      uses: actions/download-artifacts@main
+      uses: actions/download-artifact@main
       with:
         name: webpack artifacts
         path: public
